@@ -1,0 +1,27 @@
+[0.214s] Invoking command in '/home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2 -- -j8 -l8
+[0.629s] [ 50%] [32mBuilding CXX object CMakeFiles/walker.dir/src/turtle_walker.cpp.o[0m
+[30.170s] [100%] [32m[1mLinking CXX executable walker[0m
+[31.492s] [100%] Built target walker
+[31.568s] Invoked command in '/home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2 -- -j8 -l8
+[31.652s] Invoking command in '/home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2
+[31.665s] -- Install configuration: ""
+[31.669s] -- Installing: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/lib/turtlebot3_walker_ros2/walker
+[31.676s] -- Set runtime path of "/home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/lib/turtlebot3_walker_ros2/walker" to ""
+[31.676s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2//launch
+[31.677s] -- Installing: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2//launch/launch.py
+[31.677s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_walker_ros2
+[31.677s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_walker_ros2
+[31.679s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/environment/ament_prefix_path.sh
+[31.679s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/environment/ament_prefix_path.dsv
+[31.679s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/environment/path.sh
+[31.680s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/environment/path.dsv
+[31.680s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/local_setup.bash
+[31.680s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/local_setup.sh
+[31.680s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/local_setup.zsh
+[31.681s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/local_setup.dsv
+[31.681s] -- Installing: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/package.dsv
+[31.681s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/ament_index/resource_index/packages/turtlebot3_walker_ros2
+[31.681s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/cmake/turtlebot3_walker_ros2Config.cmake
+[31.681s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/cmake/turtlebot3_walker_ros2Config-version.cmake
+[31.681s] -- Up-to-date: /home/sas/ros2_ws/src/turtlebot3_walker_ros2/install/turtlebot3_walker_ros2/share/turtlebot3_walker_ros2/package.xml
+[31.687s] Invoked command in '/home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/src/turtlebot3_walker_ros2/build/turtlebot3_walker_ros2
