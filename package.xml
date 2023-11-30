@@ -6,8 +6,8 @@
   <name>turtlebot3_walker_ros2</name>
   <version>0.0.0</version>
   <description>This package creates a simple turtlebot to avoid obstackes</description>
-  <maintainer email="vinay06@umd.edu">Vinay Bukka</maintainer>
-  <license>Apache License 2.0</license>
+  <maintainer email="ssarjun@umd.edu">Sameer Arjun S</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
