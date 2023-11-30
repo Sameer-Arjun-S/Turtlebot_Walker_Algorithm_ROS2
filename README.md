@@ -32,6 +32,24 @@ cd walker_bag_topics_list
 ros2 bag play ["ros bag file name"]
 ```
 
+### Cpp Check
+```
+# If you need to install cppcheck, do
+sudo apt install cppcheck
+
+# Run in the top-level project directory (eg., in cpp-boilerplate-v2/)
+cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name *.cpp | grep -vE -e "^./build/" )
+```
+
+### Cpp Lint
+```
+# You may need to install cpplint:
+sudo apt install cpplint
+
+# run in the top-level project directory (eg., in cpp-boilerplate-v2/)
+cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
+```
+
 ### Results
 ```
 sas@sas-virtual-machine:~/ros2_ws/src/turtlebot3_walker$ ros2 bag info walker_bag_topics_list
@@ -59,22 +77,4 @@ Topic information: Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 1 |
 ```
 ### Gazebo results
 ![Screenshot from 2023-11-29 21-44-17](https://github.com/Sameer-Arjun-S/Turtlebot_Walker_Algorithm_ROS2/assets/112655999/4cedd372-731b-4c8e-b9d9-0c5a8a7d40a1)
-
-### Cpp Check
-```
-# If you need to install cppcheck, do
-sudo apt install cppcheck
-
-# Run in the top-level project directory (eg., in cpp-boilerplate-v2/)
-cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name *.cpp | grep -vE -e "^./build/" )
-```
-
-### Cpp Lint
-```
-# You may need to install cpplint:
-sudo apt install cpplint
-
-# run in the top-level project directory (eg., in cpp-boilerplate-v2/)
-cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
-```
 
