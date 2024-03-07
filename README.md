@@ -10,6 +10,8 @@ source /opt/ros/humble/setup.bash
 # Go to the source directory of your ros2 workspace
 cd ~/ros2_ws/src
 git clone <link to repository>
+# Navigate to the base directory
+cd ..
 # Install rosdep dependencies
 rosdep install -i --from-path src --rosdistro humble -y
 # Build the package using colcon build
